@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the EntityAngularBundle package.
- *
- * (c) FriendsOfSymfony <http://friendsofsymfony.github.com/>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace Connectx\EntityAngularBundle\Command;
 
 use Connectx\EntityAngularBundle\Services\AngularGenerator;
@@ -23,7 +14,7 @@ use Connectx\EntityAngularBundle\Services;
 
 class GenerateAngularCommand extends Command
 {
-    const DEFAULT_CMD = 'cx:gen:ts';
+    protected static $defaultName = 'cx:gen:ts';
 
     const ARG_ENTITY_PATH = 'entity_path';
     const ARG_3RDPARTY_NS = "3rdparty_ns";
@@ -45,7 +36,7 @@ class GenerateAngularCommand extends Command
     protected function configure()
     {
         $this
-            ->setName(self::DEFAULT_CMD)
+            ->setName(static::$defaultName)
             ->setDescription('Generate TS files for Angular model.')
             ->setDefinition(
                 [
