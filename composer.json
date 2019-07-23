@@ -1,9 +1,9 @@
 {
-    "name": "connectx/entity-to-angular",
+    "name": "connectx/entity-angular-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle to convert entities into Angular TS files.",
     "keywords": ["entity", "angular", "converter"],
-    "homepage": "https://github.com/ConnectxWeb/entity-to-angular",
+    "homepage": "https://github.com/ConnectxWeb/entity-angular-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -37,6 +37,6 @@
         }
     },
     "support": {
-        "docs": "https://github.com/ConnectxWeb/entity-to-angular"
+        "docs": "https://github.com/ConnectxWeb/entity-angular-bundle"
     }
 }
