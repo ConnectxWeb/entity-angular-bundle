@@ -5,7 +5,7 @@ namespace Connectx\EntityAngularBundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class CxEntityAngularBundle extends Bundle
+class EntityAngularBundle extends Bundle
 {
     /**
      * @param ContainerBuilder $container
