@@ -21,3 +21,12 @@ php bin/console cx:gen:ts
 ```
 
 All entities will be generated in a folder named "angular" at root level of your project.
+
+## License
+This bundle is under the MIT license.
+
+## About
+This bundle is a ConnectX initiative.
+
+## Reporting an issue or a feature request
+Issues and feature requests are tracked in the [Github issue tracker](https://github.com/ConnectxWeb/entity-angular-bundle/issues).
