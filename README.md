@@ -18,4 +18,4 @@ cd root_of_my_project
 php bin/console cx:gen:ts
 ```
 
-
+All entities will be generated in a folder named "angular" at root level of your project.
