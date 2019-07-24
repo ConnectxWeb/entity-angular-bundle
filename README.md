@@ -1,9 +1,11 @@
 # Entity to Angular bundle for Symfony
 Symfony bundle to convert entities into Angular TS files.
 
-## Installation
-Requirements: PHP 5 or higher
+##Requirements
+- Symfony 4 (not yet tested with Symfony 3 but it should work)
+- PHP 5 or higher
 
+## Installation
 Install the bundle library via Composer by running the following command:
 ```
 composer require connectx/entity-angular-bundle
