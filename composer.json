@@ -22,6 +22,8 @@
     },
     "conflict": {
     },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Connectx\\EntityAngularBundle\\": ""
